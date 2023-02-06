@@ -12,30 +12,30 @@ export default function Header() {
 					</a>
 				</div>
 				<div className="w-auto">
-					<ul className="flex items-center space-x-5">
+					<ul className="flex items-center space-x-2">
 						<li>
 							<Link legacyBehavior href="/destination">
-								<a className="capitalize px-9 text-gray-800 font-medium">destination</a>
+								<a className="capitalize px-5 text-gray-800 font-medium">destination</a>
 							</Link>
 						</li>
 						<li>
 							<Link legacyBehavior href="/hotels">
-								<a className="capitalize px-9 text-gray-800 font-medium">hotels</a>
+								<a className="capitalize px-5 text-gray-800 font-medium">hotels</a>
 							</Link>
 						</li>
 						<li>
 							<Link legacyBehavior href="/flights">
-								<a className="capitalize px-9 text-gray-800 font-medium">flights</a>
+								<a className="capitalize px-5 text-gray-800 font-medium">flights</a>
 							</Link>
 						</li>
 						<li>
 							<Link legacyBehavior href="/bookings">
-								<a className="capitalize px-9 text-gray-800 font-medium">bookings</a>
+								<a className="capitalize px-5 text-gray-800 font-medium">bookings</a>
 							</Link>
 						</li>
 						<li>
 							<Link legacyBehavior href="/login">
-								<a className="capitalize px-9 text-gray-800 font-medium">login</a>
+								<a className="capitalize px-5 text-gray-800 font-medium">login</a>
 							</Link>
 						</li>
 						<li>
