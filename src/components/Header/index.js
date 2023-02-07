@@ -15,36 +15,36 @@ export default function Header() {
 					<ul className="flex items-center space-x-2">
 						<li>
 							<Link legacyBehavior href="/destination">
-								<a className="capitalize px-5 text-gray-800 font-medium">destination</a>
+								<a className="capitalize hover:text-custom-yellow px-5 text-gray-700 font-medium">destination</a>
 							</Link>
 						</li>
 						<li>
 							<Link legacyBehavior href="/hotels">
-								<a className="capitalize px-5 text-gray-800 font-medium">hotels</a>
+								<a className="capitalize hover:text-custom-yellow px-5 text-gray-700 font-medium">hotels</a>
 							</Link>
 						</li>
 						<li>
 							<Link legacyBehavior href="/flights">
-								<a className="capitalize px-5 text-gray-800 font-medium">flights</a>
+								<a className="capitalize hover:text-custom-yellow px-5 text-gray-700 font-medium">flights</a>
 							</Link>
 						</li>
 						<li>
 							<Link legacyBehavior href="/bookings">
-								<a className="capitalize px-5 text-gray-800 font-medium">bookings</a>
+								<a className="capitalize hover:text-custom-yellow px-5 text-gray-700 font-medium">bookings</a>
 							</Link>
 						</li>
 						<li>
 							<Link legacyBehavior href="/login">
-								<a className="capitalize px-5 text-gray-800 font-medium">login</a>
+								<a className="capitalize hover:text-custom-yellow px-5 text-gray-700 font-medium">login</a>
 							</Link>
 						</li>
 						<li>
 							<Link legacyBehavior href="/signup">
-								<a className="capitalize px-5 py-1 border border-gray-800 rounded-sm mx-3 text-gray-800 font-medium">signup</a>
+								<a className="capitalize px-5 py-1 border border-gray-800 rounded-sm mx-3 text-gray-700 font-medium">signup</a>
 							</Link>
 						</li>
 						<li>
-							<button className="px-5 text-gray-800 relative font-bold">
+							<button className="px-5 text-gray-700 relative font-bold">
 								EN
 								<span className="absolute w-2 h-2 border-gray-800 border-b border-r rotate-45 top-1 right-0"></span>
 							</button>
