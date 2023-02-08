@@ -19,6 +19,7 @@ module.exports = {
 				"custom-purple": "#D5AEE4",
 				"custom-milk": "#FFF1DA",
 				"custom-body-text": "#5E6282",
+				"custom-black": "#080809",
 			},
 			container: {
 				center: true,

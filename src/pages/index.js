@@ -5,6 +5,7 @@ import Link from "next/link";
 import DecorIntersect1 from "@/images/decor-intersect1.svg";
 import DecorTextUnderline from "@/images/text-hero-decore.svg";
 import DecorOrnament1 from "@/images/plus-collections.svg";
+import DecorSwirl1 from "@/images/decor-swirl.svg";
 import { Inter } from "@next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -140,31 +141,58 @@ export default function Home() {
 							<h3 className="uppercase font-sans font-semibold text-lg text-custom-body-text text-center">top selling</h3>
 							<h2 className="text-center font-serif text-[50px]">Top Destinations</h2>
 						</div>
-						<div>
+						<div className="relative">
+							<span className="absolute -right-[63px] bottom-14 -z-[1]">
+								<DecorSwirl1 />
+							</span>
 							<div className="grid grid-cols-3 gap-x-20">
-								<div className="overflow-hidden rounded-[24px] shadow-[0px_40px_70px_-35px_rgba(0,0,0,0.2)]">
+								<div className="overflow-hidden rounded-[24px] shadow-[0px_40px_70px_-35px_rgba(0,0,0,0.2)] group">
 									<div>
-										<figure className="overflow-y-hidden max-h-96">
-											<Image src="/img/italy.jpg" width={500} height={650} alt="Rome Italy" />
+										<figure className="overflow-hidden max-h-96">
+											<Image src="/img/italy.jpg" className="transition-all duration-500 scale-100 group-hover:scale-110" width={500} height={650} alt="Rome Italy" />
 										</figure>
 									</div>
-									<div className="bg-white p-10"></div>
+									<div className="bg-white px-5 py-7 text-custom-body-text">
+										<p className="flex justify-between font-sans font-medium mb-5">
+											<span>Rome, Italy</span>
+											<span>$5,42k</span>
+										</p>
+										<p className="text-sm mb-3">
+											<span className="material-symbols-outlined inline-block align-middle text-custom-black">near_me</span> 10 Days Trip
+										</p>
+									</div>
 								</div>
-								<div className="overflow-hidden rounded-[24px] shadow-[0px_40px_70px_-35px_rgba(0,0,0,0.2)]">
+								<div className="overflow-hidden rounded-[24px] shadow-[0px_40px_70px_-35px_rgba(0,0,0,0.2)] group">
 									<div>
-										<figure className="overflow-y-hidden max-h-96">
-											<Image src="/img/london.jpg" width={500} height={600} alt="Rome Italy" />
+										<figure className="overflow-hidden max-h-96">
+											<Image src="/img/london.jpg" className="transition-all duration-500 scale-100 group-hover:scale-110" width={500} height={600} alt="Rome Italy" />
 										</figure>
 									</div>
-									<div className="bg-white p-10"></div>
+									<div className="bg-white px-5 py-7 text-custom-body-text">
+										<p className="flex justify-between font-sans font-medium mb-5">
+											<span>London, UK</span>
+											<span>$4.2k</span>
+										</p>
+										<p className="text-sm mb-3">
+											<span className="material-symbols-outlined inline-block align-middle text-custom-black">near_me</span> 11 Days Trip
+										</p>
+									</div>
 								</div>
-								<div className="overflow-hidden rounded-[24px] shadow-[0px_40px_70px_-35px_rgba(0,0,0,0.2)]">
+								<div className="overflow-hidden rounded-[24px] shadow-[0px_40px_70px_-35px_rgba(0,0,0,0.2)] group">
 									<div>
-										<figure className="overflow-y-hidden max-h-96">
-											<Image src="/img/europe.jpg" width={500} height={600} alt="Rome Italy" />
+										<figure className="overflow-hidden max-h-96">
+											<Image src="/img/europe.jpg" className="transition-all duration-500 scale-100 group-hover:scale-110" width={500} height={600} alt="Rome Italy" />
 										</figure>
 									</div>
-									<div className="bg-white p-10"></div>
+									<div className="bg-white px-5 py-7 text-custom-body-text">
+										<p className="flex justify-between font-sans font-medium mb-5">
+											<span>Full Europe</span>
+											<span>$15k</span>
+										</p>
+										<p className="text-sm mb-3">
+											<span className="material-symbols-outlined inline-block align-middle text-custom-black">near_me</span> 12 Days Trip
+										</p>
+									</div>
 								</div>
 							</div>
 						</div>
