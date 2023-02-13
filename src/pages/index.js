@@ -22,7 +22,7 @@ export default function Home() {
 
 			<Header />
 			<main className="w-full dark:bg-slate-900">
-				<section className="relative h-screen flex items-center">
+				<section className="relative py-16 flex items-center">
 					{/* background ornament */}
 					<span className="absolute right-0 top-0">
 						<DecorIntersect1 className="fill-custom-milk" />
@@ -68,7 +68,7 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
-				<section className="mb-32">
+				<section className="py-16">
 					<div className="max-w-[1280px] mx-auto px-4 relative">
 						<DecorOrnament1 className="ornament-plus1 absolute top-0 right-0" />
 						<div className="mb-6">
@@ -135,7 +135,7 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
-				<section>
+				<section className="py-16">
 					<div className="max-w-[1280px] mx-auto px-4 relative">
 						<div className="mb-16">
 							<h3 className="uppercase font-sans font-semibold text-lg text-custom-body-text text-center">top selling</h3>
@@ -158,7 +158,7 @@ export default function Home() {
 											<span>$5,42k</span>
 										</p>
 										<p className="text-sm mb-3">
-											<span className="material-symbols-outlined inline-block align-middle text-custom-black">near_me</span> 10 Days Trip
+											<span className="material-symbols-outlined inline-block align-middle text-custom-black text-xl mr-1.5">near_me</span> 10 Days Trip
 										</p>
 									</div>
 								</div>
@@ -174,7 +174,7 @@ export default function Home() {
 											<span>$4.2k</span>
 										</p>
 										<p className="text-sm mb-3">
-											<span className="material-symbols-outlined inline-block align-middle text-custom-black">near_me</span> 11 Days Trip
+											<span className="material-symbols-outlined inline-block align-middle text-custom-black text-xl mr-1.5">near_me</span> 11 Days Trip
 										</p>
 									</div>
 								</div>
@@ -190,7 +190,7 @@ export default function Home() {
 											<span>$15k</span>
 										</p>
 										<p className="text-sm mb-3">
-											<span className="material-symbols-outlined inline-block align-middle text-custom-black">near_me</span> 12 Days Trip
+											<span className="material-symbols-outlined inline-block align-middle text-custom-black text-xl mr-1.5">near_me</span> 12 Days Trip
 										</p>
 									</div>
 								</div>
@@ -198,7 +198,103 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
-				<section className="py-16"></section>
+				<section className="py-16">
+					<div className="max-w-[1280px] mx-auto px-4 relative">
+						<div className="flex w-full justify-between space-x-5">
+							<div className="max-w-[calc(90%/2)]">
+								<h3 className="uppercase font-sans font-semibold text-lg text-custom-body-text">easy and fast</h3>
+								<h2 className="font-serif text-[50px] capitalize mb-8">Book your next trip in 3 easy steps</h2>
+								<ul className="space-y-10 text-custom-body-text">
+									<li className="flex space-x-5">
+										<div className="bg-custom-light-yellow rounded-[13px] text-white flex items-center justify-center w-14 h-12">
+											<span class="material-symbols-outlined">distance</span>
+										</div>
+										<div>
+											<strong>Choose Destination</strong>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. </p>
+										</div>
+									</li>
+									<li className="flex space-x-5">
+										<div className="bg-custom-orange rounded-[13px] text-white flex items-center justify-center w-14 h-12">
+											<span class="material-symbols-outlined">payments</span>
+										</div>
+										<div>
+											<strong>Make Payment</strong>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. </p>
+										</div>
+									</li>
+									<li className="flex space-x-5">
+										<div className="bg-custom-navy rounded-[13px] text-white flex items-center justify-center w-14 h-12">
+											<span class="material-symbols-outlined">event_available</span>
+										</div>
+										<div>
+											<strong>Reach Airport on Selected Date</strong>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. </p>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div className="pr-20 pt-20 relative">
+								<span className="w-[354px] h-[367px] block bg-custom-blue/50 rounded-full blur-[70px] absolute top-5 right-10"></span>
+								<div className="absolute top-2/4 -translate-y-2/4 right-0 bg-white rounded-2xl shadow-[0px_30px_70px_-25px_rgba(0,0,0,0.2)] w-[263px] z-10 p-4 flex space-x-5">
+									<div>
+										<figure className="w-[50px] h-[50px] block overflow-hidden rounded-full">
+											<Image src="/img/mosque.jpg" width={74} height={66} className="h-[inherit]" alt="Mosque" />
+										</figure>
+									</div>
+									<div className="flex-1">
+										<small className="font-sans font-medium text-sm text-custom-body-text-light">Ongoing</small>
+										<p className="text-lg font-semibold mb-2">Trip to rome</p>
+										<p className="text-base text-custom-body-text font-medium mb-1">
+											<span className="text-custom-purple-light">40%</span> completed
+										</p>
+										<div className="h-[5px] bg-gray-200 rounded-[30px]">
+											<span className="w-[40%] block h-full bg-custom-purple-light rounded-[30px]"></span>
+										</div>
+									</div>
+								</div>
+								<div className="bg-white shadow-[0px_40px_70px_-35px_rgba(0,0,0,0.2)] rounded-[26px] max-w-[370px] w-full relative py-5 px-6">
+									<figure className="max-h-[161px] h-full overflow-hidden rounded-3xl mb-6">
+										<Image src="/img/destination.jpg" width={400} height={162} alt="Destination" />
+									</figure>
+									<div>
+										<strong className="text-lg text-custom-black font-semibold mb-3.5 block">Trip To Greece</strong>
+										<p className="font-medium font-sans text-base text-custom-body-text-light flex divide-x-[2px] divide-custom-body-text-light leading-4 space-x-3 mb-6">
+											<span>14-29 June</span>
+											<span className="pl-3">by Robbin joseph</span>
+										</p>
+										<ul className="flex space-x-3 mb-5">
+											<li>
+												<div className="w-9 h-9 bg-gray-100 flex items-center justify-center rounded-full text-custom-body-text-light">
+													<span className="text-base material-symbols-outlined">eco</span>
+												</div>
+											</li>
+											<li>
+												<div className="w-9 h-9 bg-gray-100 flex items-center justify-center rounded-full text-custom-body-text-light">
+													<span className="text-base material-symbols-outlined">map</span>
+												</div>
+											</li>
+											<li>
+												<div className="w-9 h-9 bg-gray-100 flex items-center justify-center rounded-full text-custom-body-text-light">
+													<span className="text-base material-symbols-outlined">near_me</span>
+												</div>
+											</li>
+										</ul>
+										<div className="flex items-center justify-between">
+											<div className="flex space-x-2 text-custom-body-text-light">
+												<span class="text-base material-symbols-outlined">apartment</span>
+												<p className="text-base font-sans">24 people going</p>
+											</div>
+											<div>
+												<span class="text-base text-custom-navy material-symbols-outlined">favorite</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 			</main>
 		</>
 	);

@@ -17,9 +17,12 @@ module.exports = {
 				"custom-dark-blue": "#1E1D4C",
 				"custom-orange": "#F15A2B",
 				"custom-purple": "#D5AEE4",
+				"custom-purple-light": "#8A79DF",
 				"custom-milk": "#FFF1DA",
 				"custom-body-text": "#5E6282",
+				"custom-body-text-light": "#84829A",
 				"custom-black": "#080809",
+				"custom-blue": "#59B1E6",
 			},
 			container: {
 				center: true,
