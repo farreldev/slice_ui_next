@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "@/components/Header";
+import Testimonials from "@/components/Testimonials";
 import Image from "next/image";
 import Link from "next/link";
 import DecorIntersect1 from "@/images/decor-intersect1.svg";
@@ -207,7 +208,7 @@ export default function Home() {
 								<ul className="space-y-10 text-custom-body-text">
 									<li className="flex space-x-5">
 										<div className="bg-custom-light-yellow rounded-[13px] text-white flex items-center justify-center w-14 h-12">
-											<span class="material-symbols-outlined">distance</span>
+											<span className="material-symbols-outlined">distance</span>
 										</div>
 										<div>
 											<strong>Choose Destination</strong>
@@ -216,7 +217,7 @@ export default function Home() {
 									</li>
 									<li className="flex space-x-5">
 										<div className="bg-custom-orange rounded-[13px] text-white flex items-center justify-center w-14 h-12">
-											<span class="material-symbols-outlined">payments</span>
+											<span className="material-symbols-outlined">payments</span>
 										</div>
 										<div>
 											<strong>Make Payment</strong>
@@ -225,7 +226,7 @@ export default function Home() {
 									</li>
 									<li className="flex space-x-5">
 										<div className="bg-custom-navy rounded-[13px] text-white flex items-center justify-center w-14 h-12">
-											<span class="material-symbols-outlined">event_available</span>
+											<span className="material-symbols-outlined">event_available</span>
 										</div>
 										<div>
 											<strong>Reach Airport on Selected Date</strong>
@@ -236,7 +237,7 @@ export default function Home() {
 							</div>
 							<div className="pr-20 pt-20 relative">
 								<span className="w-[354px] h-[367px] block bg-custom-blue/50 rounded-full blur-[70px] absolute top-5 right-10"></span>
-								<div className="absolute top-2/4 -translate-y-2/4 right-0 bg-white rounded-2xl shadow-[0px_30px_70px_-25px_rgba(0,0,0,0.2)] w-[263px] z-10 p-4 flex space-x-5">
+								<div className="absolute top-48 -right-14 bg-white rounded-2xl shadow-[0px_30px_70px_-25px_rgba(0,0,0,0.2)] w-[263px] z-10 p-4 flex space-x-5">
 									<div>
 										<figure className="w-[50px] h-[50px] block overflow-hidden rounded-full">
 											<Image src="/img/mosque.jpg" width={74} height={66} className="h-[inherit]" alt="Mosque" />
@@ -282,11 +283,11 @@ export default function Home() {
 										</ul>
 										<div className="flex items-center justify-between">
 											<div className="flex space-x-2 text-custom-body-text-light">
-												<span class="text-base material-symbols-outlined">apartment</span>
+												<span className="text-base material-symbols-outlined">apartment</span>
 												<p className="text-base font-sans">24 people going</p>
 											</div>
 											<div>
-												<span class="text-base text-custom-navy material-symbols-outlined">favorite</span>
+												<span className="text-base text-custom-navy material-symbols-outlined">favorite</span>
 											</div>
 										</div>
 									</div>
@@ -295,6 +296,7 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
+				<Testimonials />
 			</main>
 		</>
 	);
