@@ -9,18 +9,37 @@ svg.logo-style .logo_svg__other-color {
 	@apply fill-custom-yellow;
 }
 
-svg.ornament-plus1 .plus-collections_svg__basiccolor {
+svg.ornament-plus1 .plus-collections_svg__basiccolor,
+svg.ornament-plus2 .plus-collections2_svg__basiccolor {
 	@apply fill-gray-200;
 }
 
-svg.ornament-plus1 .plus-collections_svg__pluscolorone {
+svg.ornament-plus1 .plus-collections_svg__pluscolorone,
+svg.ornament-plus2 .plus-collections2_svg__pluscolorone {
 	/* #FF7152 */
 	@apply fill-[#FF7152];
 }
 
-svg.ornament-plus1 .plus-collections_svg__pluscolortwo {
+svg.ornament-plus1 .plus-collections_svg__pluscolortwo,
+svg.ornament-plus2 .plus-collections2_svg__pluscolortwo {
 	/* #6246E5 */
 	@apply fill-[#6246E5];
+}
+.bg-gradient-social {
+	background: conic-gradient(
+		from 180deg at 50% 50%,
+		#b8d2f1 0deg,
+		#f289aa 60deg,
+		#c68bf0 106.09deg,
+		#d164da 153.75deg,
+		#c963e8 221.25deg,
+		#bfc2e8 258.75deg,
+		#ffc999 288.75deg,
+		#d0d8c9 315deg,
+		#bad0f1 334.13deg,
+		#ced8cb 358.97deg,
+		rgba(255, 255, 255, 0) 360deg
+	);
 }
 
 .category-card-hover-effect {

@@ -18,6 +18,7 @@ module.exports = {
 				"custom-orange": "#F15A2B",
 				"custom-purple": "#D5AEE4",
 				"custom-purple-light": "#8A79DF",
+				"custom-purple-thin": "#DFD7F9",
 				"custom-milk": "#FFF1DA",
 				"custom-body-text": "#5E6282",
 				"custom-body-text-light": "#84829A",

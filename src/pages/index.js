@@ -6,7 +6,13 @@ import Link from "next/link";
 import DecorIntersect1 from "@/images/decor-intersect1.svg";
 import DecorTextUnderline from "@/images/text-hero-decore.svg";
 import DecorOrnament1 from "@/images/plus-collections.svg";
+import DecorOrnament2 from "@/images/plus-collections2.svg";
 import DecorSwirl1 from "@/images/decor-swirl.svg";
+import Fb from "@/images/facebook.svg";
+import Insta from "@/images/instagram.svg";
+import Tw from "@/images/twitter.svg";
+import Spiral1 from "@/images/spiral1.svg";
+import Spiral2 from "@/images/spiral2.svg";
 import { Inter } from "@next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -69,7 +75,7 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
-				<section className="py-16">
+				<section className="py-20">
 					<div className="max-w-[1280px] mx-auto px-4 relative">
 						<DecorOrnament1 className="ornament-plus1 absolute top-0 right-0" />
 						<div className="mb-6">
@@ -136,7 +142,7 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
-				<section className="py-16">
+				<section className="py-20">
 					<div className="max-w-[1280px] mx-auto px-4 relative">
 						<div className="mb-16">
 							<h3 className="uppercase font-sans font-semibold text-lg text-custom-body-text text-center">top selling</h3>
@@ -199,7 +205,7 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
-				<section className="py-16">
+				<section className="py-20">
 					<div className="max-w-[1280px] mx-auto px-4 relative">
 						<div className="flex w-full justify-between space-x-5">
 							<div className="max-w-[calc(90%/2)]">
@@ -297,7 +303,181 @@ export default function Home() {
 					</div>
 				</section>
 				<Testimonials />
+				<section className="py-20">
+					<div className="max-w-[1280px] mx-auto px-4 relative">
+						<div className="grid grid-cols-5">
+							<div className="h-20 p-4 relative grayscale hover:grayscale-0 bg-white transform hover:-translate-y-1 rounded-2xl transition-all hover:shadow-2xl duration-300">
+								<Image src="/img/axon.png" className="object-none" fill alt="Client Logo" />
+							</div>
+							<div className="h-20 p-4 relative grayscale hover:grayscale-0 bg-white transform hover:-translate-y-1 rounded-2xl transition-all hover:shadow-2xl duration-300">
+								<Image src="/img/jetstar.png" className="object-none" fill alt="Client Logo" />
+							</div>
+							<div className="h-20 p-4 relative grayscale hover:grayscale-0 bg-white transform hover:-translate-y-1 rounded-2xl transition-all hover:shadow-2xl duration-300">
+								<Image src="/img/expedia.png" className="object-none" fill alt="Client Logo" />
+							</div>
+							<div className="h-20 p-4 relative grayscale hover:grayscale-0 bg-white transform hover:-translate-y-1 rounded-2xl transition-all hover:shadow-2xl duration-300">
+								<Image src="/img/qantas.png" className="object-none" fill alt="Client Logo" />
+							</div>
+							<div className="h-20 p-4 relative grayscale hover:grayscale-0 bg-white transform hover:-translate-y-1 rounded-2xl transition-all hover:shadow-2xl duration-300">
+								<Image src="/img/alitalia.png" className="object-none" fill alt="Client Logo" />
+							</div>
+						</div>
+					</div>
+				</section>
+				<section className="py-20">
+					<div className="max-w-[1280px] mx-auto px-4 relative">
+						<div className="flex items-center justify-center relative w-full h-[407px] bg-custom-purple-thin/20 rounded-[20px] rounded-tl-[129px]">
+							<article className="max-w-[859px] mx-auto relative">
+								<p className="font-sans text-[30px] font-semibold text-center mb-14 text-custom-body-text">Subscribe to get information, latest news and other interesting offers about Cobham</p>
+								<div className="flex space-x-5 justify-center h-[68px]">
+									<div className="w-full max-w-[421px] h-auto">
+										<div className="bg-white flex items-center space-x-3 w-full h-full px-4 rounded-[10px]">
+											<span className="material-symbols-outlined text-gray-400">mail</span>
+											<input type="text" placeholder="Your email" className="appearance-none focus:outline-none" />
+										</div>
+									</div>
+									<div className="min-w-[180px] h-auto">
+										<button className="capitalize w-full h-full rounded-[10px] text-white bg-gradient-to-t from-[#FF7D68] to-[#FF946D]">subscribe</button>
+									</div>
+								</div>
+							</article>
+							<span className="absolute w-[350px] h-auto left-5 bottom-0 -z-[1]">
+								<Spiral1 className="opacity-[.15]" />
+							</span>
+							<span className="absolute w-[270px] h-auto right-0 top-0 -z-[1]">
+								<Spiral2 className="opacity-[.15]" />
+							</span>
+							<div className="absolute w-[70px] h-[70px] rounded-full top-0 right-0 transform -translate-y-1/2 translate-x-1/2 bg-gradient-to-tr from-[#5E3BE1] to-[#747DEF] text-white flex items-center justify-center">
+								<span className="material-symbols-outlined text-[38px]">near_me</span>
+							</div>
+						</div>
+						<DecorOrnament2 className="ornament-plus2 absolute bottom-0 right-0 transform translate-y-20 translate-x-20" />
+					</div>
+				</section>
 			</main>
+			<footer className="pt-16 overflow-hidden relative">
+				<div className="max-w-[1280px] mx-auto px-4 relative">
+					<div className="flex justify-between">
+						<div className="w-2/12">
+							<h1 className="capitalize text-[44px] font-medium mb-5">jadoo.</h1>
+							<p className="text-custom-body-text">
+								<small>Book your trip in minute, get full Control for much longer.</small>
+							</p>
+						</div>
+						<div className="px-4">
+							<h3 className="capitalize font-bold text-[21px] mb-[34px]">company</h3>
+							<ul className="space-y-2 text-lg font-medium text-custom-body-text">
+								<li>
+									<Link legacyBehavior href="/about">
+										<a>About</a>
+									</Link>
+								</li>
+								<li>
+									<Link legacyBehavior href="/careers">
+										<a>Careers</a>
+									</Link>
+								</li>
+								<li>
+									<Link legacyBehavior href="/mobile">
+										<a>Mobile</a>
+									</Link>
+								</li>
+							</ul>
+						</div>
+						<div className="px-4">
+							<h3 className="capitalize font-bold text-[21px] mb-[34px]">contact</h3>
+							<ul className="space-y-2 text-lg font-medium text-custom-body-text">
+								<li>
+									<Link legacyBehavior href="">
+										<a>Help/FAQ</a>
+									</Link>
+								</li>
+								<li>
+									<Link legacyBehavior href="/press">
+										<a>Press</a>
+									</Link>
+								</li>
+								<li>
+									<Link legacyBehavior href="/affiliates">
+										<a>Affiliates</a>
+									</Link>
+								</li>
+							</ul>
+						</div>
+						<div className="px-4">
+							<h3 className="capitalize font-bold text-[21px] mb-[34px]">more</h3>
+							<ul className="space-y-2 text-lg font-medium text-custom-body-text">
+								<li>
+									<Link legacyBehavior href="/airlinefees">
+										<a>Airlinefees</a>
+									</Link>
+								</li>
+								<li>
+									<Link legacyBehavior href="/airline">
+										<a>Airline</a>
+									</Link>
+								</li>
+								<li>
+									<Link legacyBehavior href="/lowfaretips">
+										<a>Low fare tips</a>
+									</Link>
+								</li>
+							</ul>
+						</div>
+						<div className="px-4">
+							<ul className="text-lg text-gray-500 flex space-x-5">
+								<li>
+									<a href="" className="w-10 h-10 bg-white group overflow-hidden relative shadow-lg flex items-center justify-center rounded-full">
+										<span className="group-hover:opacity-100 opacity-0 z-10 transform rotate-0 group-hover:rotate-180 transition-all duration-300 bg-gradient-social absolute inset-0"></span>
+										<span className="relative z-20">
+											<Fb className="fill-black group-hover:fill-white transition-colors duration-300" />
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="" className="w-10 h-10 bg-white group overflow-hidden relative shadow-lg flex items-center justify-center rounded-full">
+										<span className="group-hover:opacity-100 opacity-0 z-10 transform rotate-0 group-hover:rotate-180 transition-all duration-300 bg-gradient-social absolute inset-0"></span>
+										<span className="relative z-20">
+											<Insta className="fill-black group-hover:fill-white transition-colors duration-300" />
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="" className="w-10 h-10 bg-white group overflow-hidden relative shadow-lg flex items-center justify-center rounded-full">
+										<span className="group-hover:opacity-100 opacity-0 z-10 transform rotate-0 group-hover:rotate-180 transition-all duration-300 bg-gradient-social absolute inset-0"></span>
+										<span className="relative z-20">
+											<Tw className="fill-black group-hover:fill-white transition-colors duration-300" />
+										</span>
+									</a>
+								</li>
+							</ul>
+							<h6 className="text-xl tracking-tight font-medium text-gray-500 mt-7 mb-3">Discover our app</h6>
+							{/* <ul>
+								<li>
+									<Link legacyBehavior href="/">
+										<a>
+											<Image src="/img/google-play.png" className="object-none" fill alt="Google Play" />
+										</a>
+									</Link>
+								</li>
+								<li>
+									<Link legacyBehavior href="/">
+										<a>
+											<Image src="/img/play-store.png" className="object-none" fill alt="Play Store" />
+										</a>
+									</Link>
+								</li>
+							</ul> */}
+						</div>
+					</div>
+				</div>
+				<div className="py-16">
+					<p className="text-center text-custom-body-text">
+						<small>All rights reserved@jadoo.co</small>
+					</p>
+				</div>
+				<span className="w-[479px] h-[497px] block bg-custom-purple/50 rounded-full blur-[70px] absolute -bottom-[300px] -right-[300px]"></span>
+			</footer>
 		</>
 	);
 }

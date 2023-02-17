@@ -104,10 +104,10 @@ export default function Testimonials() {
 					<div className="w-1/12 flex items-center justify-center">
 						<div className="flex flex-col">
 							<button onClick={fnPrev} className={[realSlide === 0 ? "text-gray-300" : "text-gray-800"].join(" ")}>
-								<span class="material-symbols-outlined">keyboard_arrow_up</span>
+								<span className="material-symbols-outlined">keyboard_arrow_up</span>
 							</button>
 							<button onClick={fnNext} className={[realSlide === testiItems.length - 1 ? "text-gray-300" : "text-gray-800"].join(" ")}>
-								<span class="material-symbols-outlined">keyboard_arrow_down</span>
+								<span className="material-symbols-outlined">keyboard_arrow_down</span>
 							</button>
 						</div>
 					</div>
