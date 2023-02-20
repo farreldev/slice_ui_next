@@ -69,7 +69,7 @@ export default function Home() {
 									<Image width={155} height={155} src="/img/plane.png" alt="plane ornament" />
 								</span>
 								<span className="relative">
-									<Image width={700} height={700} className="object-center" src="/img/hero-traveller.png" alt="Picture the traveller" />
+									<Image priority width={700} height={700} className="object-center" src="/img/hero-traveller.png" alt="Picture the traveller" />
 								</span>
 							</div>
 						</div>
