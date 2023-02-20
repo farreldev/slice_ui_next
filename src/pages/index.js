@@ -29,7 +29,7 @@ export default function Home() {
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Jadoo" />
 				<meta property="og:description" content="travel app, life app, aplikasi jalan-jalan, pesan guide, dan sebagainya" />
-				<meta property="og:image" content="https://slice-ui-next.vercel.app/public/aplikasi-travel-online.jpg" />
+				<meta property="og:image" content="https://slice-ui-next.vercel.app/aplikasi-travel-online.jpg" />
 			</Head>
 
 			<Header />
