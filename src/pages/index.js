@@ -22,7 +22,7 @@ export default function Home() {
 		<>
 			<Head>
 				<title>Jadoo</title>
-				<meta name="description" content="Jadoo App Travel" />
+				<meta name="description" content="Jadoo App Travel, travel app, life app, aplikasi jalan-jalan, pesan guide, dan sebagainya" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 				<meta property="og:url" content="https://slice-ui-next.vercel.app" />
