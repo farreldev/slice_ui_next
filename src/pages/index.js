@@ -369,17 +369,17 @@ export default function Home() {
 							<ul className="space-y-2 text-lg font-medium text-custom-body-text">
 								<li>
 									<Link legacyBehavior href="/about">
-										<a>About</a>
+										<a className="hover:text-custom-yellow">About</a>
 									</Link>
 								</li>
 								<li>
 									<Link legacyBehavior href="/careers">
-										<a>Careers</a>
+										<a className="hover:text-custom-yellow">Careers</a>
 									</Link>
 								</li>
 								<li>
 									<Link legacyBehavior href="/mobile">
-										<a>Mobile</a>
+										<a className="hover:text-custom-yellow">Mobile</a>
 									</Link>
 								</li>
 							</ul>
@@ -389,17 +389,17 @@ export default function Home() {
 							<ul className="space-y-2 text-lg font-medium text-custom-body-text">
 								<li>
 									<Link legacyBehavior href="">
-										<a>Help/FAQ</a>
+										<a className="hover:text-custom-yellow">Help/FAQ</a>
 									</Link>
 								</li>
 								<li>
 									<Link legacyBehavior href="/press">
-										<a>Press</a>
+										<a className="hover:text-custom-yellow">Press</a>
 									</Link>
 								</li>
 								<li>
 									<Link legacyBehavior href="/affiliates">
-										<a>Affiliates</a>
+										<a className="hover:text-custom-yellow">Affiliates</a>
 									</Link>
 								</li>
 							</ul>
@@ -409,71 +409,78 @@ export default function Home() {
 							<ul className="space-y-2 text-lg font-medium text-custom-body-text">
 								<li>
 									<Link legacyBehavior href="/airlinefees">
-										<a>Airlinefees</a>
+										<a className="hover:text-custom-yellow">Airlinefees</a>
 									</Link>
 								</li>
 								<li>
 									<Link legacyBehavior href="/airline">
-										<a>Airline</a>
+										<a className="hover:text-custom-yellow">Airline</a>
 									</Link>
 								</li>
 								<li>
 									<Link legacyBehavior href="/lowfaretips">
-										<a>Low fare tips</a>
+										<a className="hover:text-custom-yellow">Low fare tips</a>
 									</Link>
 								</li>
 							</ul>
 						</div>
-						<div className="px-4">
-							<ul className="text-lg text-gray-500 flex space-x-5">
-								<li>
-									<a href="" className="w-10 h-10 bg-white group overflow-hidden relative shadow-lg flex items-center justify-center rounded-full">
-										<span className="group-hover:opacity-100 opacity-0 z-10 transform rotate-0 group-hover:rotate-180 transition-all duration-300 bg-gradient-social absolute inset-0"></span>
-										<span className="relative z-20">
-											<Fb className="fill-black group-hover:fill-white transition-colors duration-300" />
-										</span>
-									</a>
-								</li>
-								<li>
-									<a href="" className="w-10 h-10 bg-white group overflow-hidden relative shadow-lg flex items-center justify-center rounded-full">
-										<span className="group-hover:opacity-100 opacity-0 z-10 transform rotate-0 group-hover:rotate-180 transition-all duration-300 bg-gradient-social absolute inset-0"></span>
-										<span className="relative z-20">
-											<Insta className="fill-black group-hover:fill-white transition-colors duration-300" />
-										</span>
-									</a>
-								</li>
-								<li>
-									<a href="" className="w-10 h-10 bg-white group overflow-hidden relative shadow-lg flex items-center justify-center rounded-full">
-										<span className="group-hover:opacity-100 opacity-0 z-10 transform rotate-0 group-hover:rotate-180 transition-all duration-300 bg-gradient-social absolute inset-0"></span>
-										<span className="relative z-20">
-											<Tw className="fill-black group-hover:fill-white transition-colors duration-300" />
-										</span>
-									</a>
-								</li>
-							</ul>
-							<h6 className="text-xl tracking-tight font-medium text-gray-500 mt-7 mb-3">Discover our app</h6>
-							{/* <ul>
-								<li>
-									<Link legacyBehavior href="/">
-										<a>
-											<Image src="/img/google-play.png" className="object-none" fill alt="Google Play" />
+						<div className="px-4 w-[22%] flex justify-center">
+							<div>
+								<ul className="text-lg text-gray-500 flex justify-center space-x-5">
+									<li>
+										<a href="" className="w-10 h-10 bg-white group overflow-hidden relative shadow-lg flex items-center justify-center rounded-full">
+											<span className="group-hover:opacity-100 opacity-0 z-10 transform rotate-0 group-hover:rotate-180 transition-all duration-300 bg-gradient-social absolute inset-0"></span>
+											<span className="relative z-20">
+												<Fb className="fill-black group-hover:fill-white transition-colors duration-300" />
+											</span>
 										</a>
-									</Link>
-								</li>
-								<li>
-									<Link legacyBehavior href="/">
-										<a>
-											<Image src="/img/play-store.png" className="object-none" fill alt="Play Store" />
+									</li>
+									<li>
+										<a href="" className="w-10 h-10 bg-white group overflow-hidden relative shadow-lg flex items-center justify-center rounded-full">
+											<span className="group-hover:opacity-100 opacity-0 z-10 transform rotate-0 group-hover:rotate-180 transition-all duration-300 bg-gradient-social absolute inset-0"></span>
+											<span className="relative z-20">
+												<Insta className="fill-black group-hover:fill-white transition-colors duration-300" />
+											</span>
 										</a>
-									</Link>
-								</li>
-							</ul> */}
+									</li>
+									<li>
+										<a href="" className="w-10 h-10 bg-white group overflow-hidden relative shadow-lg flex items-center justify-center rounded-full">
+											<span className="group-hover:opacity-100 opacity-0 z-10 transform rotate-0 group-hover:rotate-180 transition-all duration-300 bg-gradient-social absolute inset-0"></span>
+											<span className="relative z-20">
+												<Tw className="fill-black group-hover:fill-white transition-colors duration-300" />
+											</span>
+										</a>
+									</li>
+								</ul>
+								<h6 className="text-xl text-center tracking-tight font-medium text-gray-500 mt-7 mb-3">Discover our app</h6>
+								<div className="flex justify-center">
+									<span className="flex-1">
+										<Link legacyBehavior href="/">
+											<a>
+												<Image src="/img/google-play.png" className="object-none" width={300} height={200} alt="Google Play" />
+											</a>
+										</Link>
+									</span>
+									<span className="flex-1">
+										<Link legacyBehavior href="/">
+											<a>
+												<Image src="/img/play-store.png" className="object-none" width={300} height={200} alt="Play Store" />
+											</a>
+										</Link>
+									</span>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div className="py-16">
 					<p className="text-center text-custom-body-text">
-						<small>All rights reserved@jadoo.co</small>
+						<small className="text-[#727272]">
+							All rights{" "}
+							<Link legacyBehavior href="mailto:reserved@jadoo.co">
+								<a>reserved@jadoo.co</a>
+							</Link>
+						</small>
 					</p>
 				</div>
 				<span className="w-[479px] h-[497px] block bg-custom-purple/50 rounded-full blur-[70px] absolute -bottom-[300px] -right-[300px]"></span>
