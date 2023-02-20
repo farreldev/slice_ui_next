@@ -10,6 +10,7 @@ import { A11y, Autoplay, EffectCreative, Navigation, Pagination, Scrollbar } fro
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/css/autoplay";
 import "swiper/css/scrollbar";
 
 const testiItems = [
@@ -66,6 +67,7 @@ export default function Testimonials() {
 								spaceBetween={50}
 								slidesPerView={1}
 								effect="creative"
+								autoplay={{ pauseOnMouseEnter: true }}
 								creativeEffect={{
 									prev: {
 										translate: [60, 70, 0],
