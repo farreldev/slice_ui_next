@@ -36,13 +36,13 @@ export default function Home() {
 			<main className="w-full dark:bg-slate-900">
 				<section className="relative py-16 flex items-center">
 					{/* background ornament */}
-					<span className="absolute right-0 top-0">
+					<span className="absolute z-0 right-0 top-0">
 						<DecorIntersect1 className="fill-custom-milk" />
 					</span>
 					<span className="w-[479px] h-[497px] block bg-custom-purple/50 rounded-full blur-[70px] absolute top-[-60px] -left-[370px]"></span>
 					{/* End */}
-					<div className="max-w-[1280px] mx-auto pt-28 px-4">
-						<div className="grid grid-cols-2 items-center">
+					<div className="max-w-[1280px] relative mx-auto pt-28 px-4">
+						<div className="grid lg:grid-cols-2 md:grid-cols-1 items-center">
 							<div>
 								<h1 className="uppercase text-custom-red font-bold text-xl mb-6">Best Destinations around the world</h1>
 								<h2 className="text-gray-900 font-serif text-[84px] leading-[110px] tracking-tighter mb-8">
@@ -87,7 +87,7 @@ export default function Home() {
 							<h3 className="uppercase font-sans font-semibold text-lg text-custom-body-text text-center">category</h3>
 							<h2 className="text-center font-serif text-[50px]">We Offer Best Services</h2>
 						</div>
-						<div className="grid grid-cols-4 gap-10 relative text-custom-body-text">
+						<div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-10 relative text-custom-body-text">
 							<div className="category-card-hover-effect">
 								<div className="text-center flex flex-col justify-between px-11 py-[45px]">
 									<div className="relative w-full h-[150px]">
